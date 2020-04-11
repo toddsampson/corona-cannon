@@ -1,12 +1,14 @@
 <template>
   <Layout>
-
-    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image alt="Example image" src="~/favicon.png" width="135" />
-
-    <h1>{{ $page.page.name }}</h1>
-    <block-content :blocks="$page.page._rawPageBody" />
-
+    <v-content>
+      <v-container>
+        <v-row wrap>
+          <v-col cols="12">
+            <block-content :blocks="$page.page._rawPageBody" />
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-content>
   </Layout>
 </template>
 

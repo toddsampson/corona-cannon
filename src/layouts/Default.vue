@@ -1,16 +1,20 @@
 <template>
-  <div class="layout">
-    <header class="header">
-      <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-      </strong>
-      <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/about/">About</g-link>
-      </nav>
-    </header>
-    <slot/>
-  </div>
+  <v-app class="layout">
+    <v-content>
+      <header col="12">
+        <strong>
+          <g-link to="/">{{ $static.metadata.siteName }}</g-link>
+        </strong>
+        <!-- <nav class="nav">
+          <g-link class="nav__link" to="/">Home</g-link>
+          <g-link class="nav__link" to="/about/">About</g-link>
+        </nav> -->
+      </header>
+      <v-container fluid>
+        <slot />
+      </v-container>
+    </v-content>
+  </v-app>
 </template>
 
 <static-query>
@@ -30,7 +34,7 @@ body {
 }
 
 .layout {
-  max-width: 760px;
+  max-width: 990px;
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
