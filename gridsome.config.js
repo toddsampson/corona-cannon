@@ -7,7 +7,7 @@
 module.exports = {
   siteName: 'Corona Cannon',
   templates: {
-    // Model: '/models/:slug__current'
+    SanityModels: '/models/:slug__current'
   },
   plugins: [
     {

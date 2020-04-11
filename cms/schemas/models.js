@@ -4,10 +4,16 @@ export default {
   title: 'Corona Cannon Models',
   fields: [
     {
-      name: 'name',
+      name: 'title',
       type: 'string',
       title: 'Title',
       required: true,
+    },
+    {
+      name: 'subtitle',
+      type: 'string',
+      title: 'Subtitle',
+      required: false,
     },
     {
       name: 'slug',
@@ -28,6 +34,16 @@ export default {
         {type: 'block'},
         {type: 'image'},
       ]
+    },
+    {
+      name: 'displayImage',
+      type: 'image',
+      title: 'Display Image',
+    },
+    {
+      name: 'featuredModel',
+      type: 'boolean',
+      title: 'Featured Model',
     },
     {
       title: 'Process Steps',

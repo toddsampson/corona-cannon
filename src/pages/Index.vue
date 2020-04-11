@@ -5,6 +5,8 @@
       <v-container>
         <v-row wrap>
           <v-col cols="12">
+            <h2 class="display-3 pt-7">Featured Models</h2>
+            <ModelCardLayout />
             <block-content :blocks="$page.page._rawPageBody" />
           </v-col>
         </v-row>
@@ -35,11 +37,13 @@
 </page-query>
 
 <script>
-import Hero from '~/components/hero.vue'
+import Hero from '~/components/Hero.vue'
+import ModelCardLayout from '~/components/ModelCardLayout.vue'
 
 export default {
   components: {
     Hero,
+    ModelCardLayout,
   }
 }
 </script>
