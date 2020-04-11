@@ -6,5 +6,19 @@
 
 module.exports = {
   siteName: 'Corona Cannon',
-  plugins: []
+  templates: {
+    // Model: '/models/:slug__current'
+  },
+  plugins: [
+    {
+      use: 'gridsome-source-sanity',
+      options: {
+        projectId: 'gqr3e19k',
+        dataset: 'production',
+        // token: '<tokenWithReadRights>',
+        overlayDrafts: false,
+        watchMode: false
+      }
+    },
+  ],
 }
