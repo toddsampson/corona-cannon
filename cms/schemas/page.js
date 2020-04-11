@@ -4,10 +4,16 @@ export default {
   title: 'Basic Site Pages',
   fields: [
     {
-      name: 'name',
+      name: 'title',
       type: 'string',
       title: 'Title',
       required: true,
+    },
+    {
+      name: 'subtitle',
+      type: 'string',
+      title: 'Subtitle',
+      required: false,
     },
     {
       name: 'slug',

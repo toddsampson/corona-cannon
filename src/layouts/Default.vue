@@ -1,19 +1,25 @@
 <template>
   <v-app class="layout">
-    <v-content>
-      <header col="12">
-        <strong>
-          <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-        </strong>
-        <!-- <nav class="nav">
+    <!-- <v-app-bar
+    app
+    dark
+    extended
+    extension-height="200vh"
+    src="https://cdn.sanity.io/images/gqr3e19k/production/8e4cbd6028c62246c3539011f85090e7825ae969-2000x1333.jpg"
+    shrink-on-scroll>
+      <v-toolbar-title>{{ $static.metadata.siteName }}</v-toolbar-title>
+      <v-spacer></v-spacer>
+      <v-tabs right       style="background: none;"
+>
+        <v-tab>
           <g-link class="nav__link" to="/">Home</g-link>
+        </v-tab>
+        <v-tab>
           <g-link class="nav__link" to="/about/">About</g-link>
-        </nav> -->
-      </header>
-      <v-container fluid>
+        </v-tab>
+      </v-tabs>
+    </v-app-bar> -->
         <slot />
-      </v-container>
-    </v-content>
   </v-app>
 </template>
 
@@ -25,6 +31,7 @@ query {
 }
 </static-query>
 
+
 <style>
 body {
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
@@ -33,22 +40,4 @@ body {
   line-height: 1.5;
 }
 
-.layout {
-  max-width: 990px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  height: 80px;
-}
-
-.nav__link {
-  margin-left: 20px;
-}
 </style>

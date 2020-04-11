@@ -1,5 +1,6 @@
 <template>
   <Layout>
+    <Hero :title="$page.page.title" :subtitle="$page.page.subtitle" :src="$page.page.featuredImage.asset.url" />
     <v-content>
       <v-container>
         <v-row wrap>
@@ -17,7 +18,8 @@
     page: sanityPage (id: "d073484d-0f1f-42e7-88f3-02cdb778bd80")
     {
       id
-      name
+      title
+      subtitle
       featuredImage {
         asset {
           url
@@ -33,15 +35,11 @@
 </page-query>
 
 <script>
+import Hero from '~/components/hero.vue'
+
 export default {
-  metaInfo: {
-    title: 'Hello, world!'
+  components: {
+    Hero,
   }
 }
 </script>
-
-<style>
-.home-links a {
-  margin-right: 1rem;
-}
-</style>
