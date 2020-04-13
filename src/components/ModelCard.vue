@@ -1,14 +1,30 @@
 <template>
-  <v-card class="modelcard" :to="`/models/${slug}`">
+<v-card
+  class="modelcard" :to="`/models/${slug}`"
+  >
     <v-img
-      :src="src"
       class="white--text align-end"
-      gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
-      height="300px">
-      <v-card-title v-text="title" class="display-2"></v-card-title>
+      height="300px"
+      :src="src"
+    >
+      <v-card-title class="display-2">{{ title }}</v-card-title>
     </v-img>
-    <p class="headline">{{ subtitle }}</p>
+
+    <v-card-text class="text--primary">
+      <div class="headline">{{ subtitle }}</div>
+    </v-card-text>
+
+    <v-card-actions>
+      <v-btn
+        color="orange"
+        text
+      >
+        Explore
+      </v-btn>
+    </v-card-actions>
   </v-card>
+
+
 </template>
 
 <script>

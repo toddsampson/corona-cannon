@@ -1,6 +1,6 @@
 <template>
   <v-row>
-    <v-col v-for="(model, index) in $static.models.edges" :key="index" class="col-4">
+    <v-col v-for="(model, index) in $static.models.edges" :key="index" class="col-12 col-md-4">
       <ModelCard :src="model.node.displayImage.asset.url" :title="model.node.title" :subtitle="model.node.subtitle" :slug="model.node.slug.current" />
     </v-col>
   </v-row>
