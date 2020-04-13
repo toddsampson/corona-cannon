@@ -4,6 +4,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 import models from './models'
 import page from './page'
 import processStep from './processStep'
+import productPart from './productPart'
 
 export default createSchema({
   name: 'default',
@@ -11,5 +12,6 @@ export default createSchema({
     models,
     page,
     processStep,
+    productPart,
   ])
 })

@@ -1,6 +1,6 @@
 export default {
   name: 'processStep',
-  type: 'document',
+  type: 'object',
   title: 'Process Step',
   fields: [
     {

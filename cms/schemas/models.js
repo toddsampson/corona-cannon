@@ -46,6 +46,12 @@ export default {
       title: 'Featured Model',
     },
     {
+      title: 'Product Parts',
+      name: 'productParts',
+      type: 'array',
+      of: [{type: 'productPart'}],
+    },
+    {
       title: 'Process Steps',
       name: 'processSteps',
       type: 'array',
