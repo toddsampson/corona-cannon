@@ -52,6 +52,12 @@ export default {
       of: [{type: 'productPart'}],
     },
     {
+      title: 'Tools',
+      name: 'tools',
+      type: 'array',
+      of: [{type: 'string'}],
+    },
+    {
       title: 'Process Steps',
       name: 'processSteps',
       type: 'array',
