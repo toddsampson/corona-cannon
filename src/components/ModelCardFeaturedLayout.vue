@@ -22,21 +22,6 @@ query {
         slug{
           current
         }
-        productParts {
-          name
-          quantity
-          costPerItem
-          urls
-        }
-        processSteps {
-          name
-          _rawDescription
-          stepImage {
-            asset {
-              path
-            }
-          }
-        }
       }
     }
   }
