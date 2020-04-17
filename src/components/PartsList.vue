@@ -36,8 +36,13 @@ export default {
         let t = {};
         t.part = this.parts[i].name;
         t.quantity = this.parts[i].quantity;
-        t.price = `$${this.parts[i].costPerItem.toFixed(2)}`;
-        t.total = `$${(this.parts[i].costPerItem * this.parts[i].quantity).toFixed(2)}`;
+        if (this.parts[i].costPerItem) {
+          t.price = `$${this.parts[i].costPerItem.toFixed(2)}`;
+          t.total = `$${(this.parts[i].costPerItem * this.parts[i].quantity).toFixed(2)}`;
+        } else {
+          t.price = "$0";
+          t.total = "$0";
+        }
         p.push(t);
       }
       return p;
