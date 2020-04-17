@@ -11,6 +11,7 @@
             <ProbSolution :isProblem="false" />
           </v-col>
         </v-row>
+
         <v-row wrap>
           <v-col class="col12">
             <AboutTheProject />
@@ -34,8 +35,15 @@
             <HowItWorks />
           </v-col>
         </v-row>
+        <v-row wrap>
+          <v-col cols="12">
+            <h2 class="display-3 pt-7">Featured Model</h2>
+            <ModelCardFeaturedLayout />
+          </v-col>
+        </v-row>
       </v-container>
     </v-content>
+    <Footer />
   </Layout>
 </template>
 
@@ -67,6 +75,8 @@ import HowItWorks from '~/components/HowItWorks.vue'
 import ModelCardLayout from '~/components/ModelCardLayout.vue'
 import ModelCardFeaturedLayout from '~/components/ModelCardFeaturedLayout.vue'
 import ProbSolution from '~/components/ProbSolution.vue'
+import Footer from '~/components/Footer.vue'
+
 
 export default {
   components: {
@@ -76,6 +86,7 @@ export default {
     ModelCardFeaturedLayout,
     ModelCardLayout,
     ProbSolution,
+    Footer,
   }
 }
 </script>

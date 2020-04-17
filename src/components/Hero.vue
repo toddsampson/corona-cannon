@@ -1,7 +1,7 @@
 <template>
   <v-parallax
     dark
-    :src="src"
+    :src="`${src}?w=1700&q=25`"
     height="640"
   >
     <v-row
