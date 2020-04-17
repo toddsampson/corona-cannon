@@ -17,9 +17,9 @@ export default {
       required: true,
     },
     {
-      name: 'units',
-      type: 'string',
-      title: 'Units',
+      name: 'costPerItem',
+      type: 'number',
+      title: 'Cost Per Item',
       required: false,
     },
     {

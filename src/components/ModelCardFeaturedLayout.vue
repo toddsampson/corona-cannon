@@ -1,6 +1,6 @@
 <template>
   <v-row>
-    <v-col v-for="(model, index) in $static.models.edges" :key="index" class="col-12 col-md-4">
+    <v-col v-for="(model, index) in $static.models.edges" :key="index" class="col-12">
       <ModelCard :src="model.node.displayImage.asset.url" :title="model.node.title" :subtitle="model.node.subtitle" :slug="model.node.slug.current" />
     </v-col>
   </v-row>
@@ -8,7 +8,7 @@
 
 <static-query>
 query {
-  models: allSanityModels(filter:{featuredModel:  {eq: false}}, order: ASC, sortBy: "title") {
+  models: allSanityModels(filter:{featuredModel:  {eq: true}}, order: ASC, sortBy: "title") {
     edges {
       node {
         title
