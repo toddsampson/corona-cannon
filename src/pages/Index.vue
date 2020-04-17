@@ -35,12 +35,6 @@
             <HowItWorks />
           </v-col>
         </v-row>
-        <v-row wrap>
-          <v-col cols="12">
-            <h2 class="display-3 pt-7">Featured Model</h2>
-            <ModelCardFeaturedLayout />
-          </v-col>
-        </v-row>
       </v-container>
     </v-content>
     <Footer />
