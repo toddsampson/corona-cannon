@@ -37,11 +37,8 @@
         </v-row>
         <v-row wrap>
           <v-col cols="12">
-            <h3 class="display-2 pt-7">Created By</h3>
-            <AvatarCardLayout />
-
             <h2 class="display-3 pt-7">Featured Model</h2>
-          <ModelCardFeaturedLayout />
+            <ModelCardFeaturedLayout />
           </v-col>
         </v-row>
       </v-container>
@@ -78,7 +75,6 @@ import HowItWorks from '~/components/HowItWorks.vue'
 import ModelCardLayout from '~/components/ModelCardLayout.vue'
 import ModelCardFeaturedLayout from '~/components/ModelCardFeaturedLayout.vue'
 import ProbSolution from '~/components/ProbSolution.vue'
-import AvatarCardLayout from '~/components/AvatarCardLayout.vue'
 import Footer from '~/components/Footer.vue'
 
 
@@ -90,7 +86,6 @@ export default {
     ModelCardFeaturedLayout,
     ModelCardLayout,
     ProbSolution,
-    AvatarCardLayout,
     Footer,
   }
 }
