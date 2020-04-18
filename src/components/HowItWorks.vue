@@ -16,6 +16,7 @@
         <li class="headline"><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1280232/" target="_blank">Predicted Inactivation of Viruses of Relevance to Biodefense by Solar Radiation</a></li>
         <li class="headline"><a href="https://www.breakingasia.com/news/china-using-uv-light-to-speed-up-disinfection-of-virus-germs/" target="_blank">China Using UV Light to Speed Up Disinfection of Virus Germs</a></li>
         <li class="headline"><a href="https://www.sages.org/n-95-re-use-instructions/#_edn7" target="_blank">N95 Re-use Strategies</a></li>
+        <li class="headline"><a href="https://spectrum.ieee.org/tech-talk/semiconductors/optoelectronics/ultravioletled-maker-demonstrates-30second-coronavirus-kill" target="_blank">Ultraviolet-LED Maker Demonstrates 30-Second Coronavirus Kill</a></li>
       </ul>
     </v-card-text>
   </v-card>
