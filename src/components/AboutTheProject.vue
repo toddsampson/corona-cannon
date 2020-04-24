@@ -13,7 +13,7 @@
         <li class="headline">Not require any specialized tools.</li>
         <li class="headline">Be simple and intuitive for hospital staff to use.</li>
       </ul>
-      <p class="headline">Special thanks to Fred Maxik, David Metcalf, Michael Schmidt &amp; Carlos Carrasco from Orlando Health, Juan Santos, and John Sampson for your invaluable advice and assistance on this project.</p>
+      <p class="headline">Special thanks to Fred Maxik, David Metcalf, Michael Schmidt &amp; Carlos Carrasco from Orlando Health, Juan Santos, Lis Sampson and John Sampson for your invaluable advice and assistance on this project.</p>
       <p class="headline">The Corona Cannon project was created by Gabriel Avram, Michael Miller and Todd Sampson. We are trying to do our small part to help.</p>
       <p class="headline" style="background-color: red; padding: 20px;">Disclaimer: Everything on this site is provided “as is” without warranty or guarantee of effectiveness. <strong>A local hospital has a prototype Corona Cannon for testing, but we are still waiting for results.</strong> Be careful, <strong>the 254nm UV-C tubes used in this project are extremely dangerous!</strong> Use proper eye protection and ensure your skin is not exposed to the UV-C light at all times. Build and use at your own risk.</p>
 
