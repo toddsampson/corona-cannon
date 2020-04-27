@@ -11,7 +11,7 @@
       <v-col class="text-center" cols="12">
         <h1 class="display-4 font-weight-thin mb-4">{{ title }}</h1>
         <div style="max-width: 700px; margin:0 auto;">
-          <h4 class="subheading display-1" style="line-height: 1.25em;">{{ subtitle }}</h4>
+          <h4 class="subheading display-1" style="line-height: 1.25em; padding: 0 70px;">{{ subtitle }}</h4>
         </div>
       </v-col>
     </v-row>
