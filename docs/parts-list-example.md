@@ -1,5 +1,8 @@
-Gabriels Stuff
+# Parts list — one of the original 2020 builds
 
+Kept as an example of what a basic build cost and where the parts came from (Home Depot, Amazon). Prices are April 2020.
+
+```
 Item	Qty	Price	Total	Link
 8 ft. Corrugated Galvanized Steel Utility-Gauge Roof Panel	1	 $ 14.36 	 $ 14.36 	https://www.homedepot.com/p/Gibraltar-Building-Products-8-ft-Corrugated-Galvanized-Steel-Utility-Gauge-Roof-Panel-13513/202092961
 4 ft. x 4 ft. Sanded Plywood	1	 $ 23.00 	 $ 23.00 	https://www.homedepot.com/p/23-32-in-x-4-ft-x-4-ft-Sanded-Plywood-Actual-0-703-in-x-47-75-in-x-47-75-in-211799/205723975
@@ -13,10 +16,10 @@ Wood Screws #6 1 in. to 1.5 in - box of 40	1	 $ 2.50 	 $ 2.50 	https://www.homed
 1 Gang Toggle Switch wall plate	1	 $ 0.35 	 $ 0.35 	https://www.homedepot.com/p/Leviton-1-Gang-Toggle-Wall-Plate-White-R52-88001-00W/100014221
 Power cord				
 			104.61	
-				
 Tools				
 Jigsaw with fine wood blade				
 Power Drill				
 Screwdriver				
 Riveter				
 Angle grinder with metal cutting wheel				
+```
